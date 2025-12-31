@@ -1,0 +1,24 @@
+HTML Tags Used:
+1. <!DOCTYPE html> - Declares the document type and HTML version.
+2. <html> - Root element of the HTML document.
+3. <head> - Contains meta information, links to CSS and JS.
+4. <body> - Contains the content of the webpage.
+5. <nav> - Defines a navigation bar for the website.
+6. <header> - Represents introductory content at the top of the page.
+7. <main> - Encapsulates the main content of the document.
+8. <section> - Groups related content.
+9. <div> - Generic container used for layout and styling.
+10. <img> - Embeds images into the page.
+
+CSS Properties Used:
+1. color - Defines the text color.
+2. background-color - Sets the background color of elements.
+3. margin - Controls spacing outside elements.
+4. padding - Controls spacing inside elements.
+5. display - Defines how elements are rendered (e.g., block, flex).
+
+JavaScript Usage:
+Used JavaScript to implement interactive gallery filtering and dynamic user feedback (e.g., form confirmation) for a smoother user experience.
+
+Bootstrap Usage:
+Bootstrap was used to simplify responsive layout creation and component styling (e.g., navbar, carousel, buttons), accelerating design implementation with mobile-first principles.

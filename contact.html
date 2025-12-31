@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+        <link href="styles.css" rel="stylesheet">
+        <script src='scripts.js'></script>
+
+        <title>My Webpage</title>
+        <link href='icon.jpg' rel='icon'>
+    </head>
+    <body>
+
+        <!-- Navigation Bar -->
+
+        <nav class='navbar1 fixed-top'>
+            <div class='container'>
+                <div class='row'>
+                    <div class='col'>
+                        <div class='box'>
+                            <a href='index.html' class='navbar-expand-lg nav1 navi'>Home</a>
+                        </div>
+                    </div>
+                    <div class='col'>
+                        <div class='box'>
+                            <a href='about.html' class='navbar-expand-lg nav1 navi'>About</a>
+                        </div>
+                    </div>
+                    <div class='col'>
+                        <div class='box'>
+                            <a href='projects.html' class='navbar-expand-lg nav1 navi'>Projects</a>
+                        </div>
+                    </div>
+                    <div class='col'>
+                        <div class='box'>
+                            <a href='contact.html' class='navbar-expand-lg nav1 navi'>Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+
+        <header class="center" style='padding-top: 80px;'>
+            <h1 class='center'>Get In Touch</h1>
+        </header>
+        <main class="container">
+            <div class='row g-5 mt-3'>
+
+                <!-- Contact Form -->
+
+                <div class='col-md-6 my-4'>
+                    <form id='contact-form'>
+                        <div class='mb-3'>
+                            <label for='name' class='form-label'>Your Name</label>
+                            <input autofocus type='text' class='form-control' id='name' required>
+                        </div>
+                        <div class='mb-3'>
+                            <label for='email' class='form-label'>Email Address</label>
+                            <input type='email' class='form-control' id='email' required>
+                        </div>
+                        <div class='mb-3'>
+                            <label for='message' class='form-label'>Your Message</label>
+                            <textarea class='form-control' id='message' row='5' required></textarea>
+                        </div>
+                        <button type='submit' class='btn btn-primary'>Send Message</button>
+                        <div id='confirmation' class='mt-3 text-success' style='display: none;'>Thank you! Your message has been sent. 🚀</div>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+
+                <div class='col-md-6 my-4'>
+                    <h5>Email:</h5>
+                    <p>
+                        <img src='gmail.png' class='me-2' height=20px>
+                        <a class='nolink' href='mailto:athaya.zachel@gmail.com?subjek=Halo%20Rama&body=Hai%20Rama%2C%20saya%20tertarik%20dengan%20karyamu!'>athaya.zachel@gmail.com</a>
+                    </p>
+
+                    <h5>WhatsApp:</h5>
+                    <p>
+                        <img src='wa.png' height=20px>
+                        <a class='nolink' href='https://wa.me/6287846075466' target='_blank'>+62 878 4607 5466</a>
+                    </p>
+
+                    <h5>LinkedIn:</h5>
+                    <p>
+                        <img src='linkin.png' class='me-2' height=24px>
+                        <a class='nolink' href='https://linkedin.com/in/erlanggarahmansyah' target='_blank'>linkedin.com/in/erlanggarahmansyah</a>
+                    </p>
+
+                    <h5>Social Media:</h5>
+                    <p>
+                        <img src='ig.png' height=24px>
+                        <a class='nolink' href=''>Instagram</a> |
+                        <img src='x.png' class='mx-1' height=24px>
+                        <a class='nolink' href=''>Twitter</a> |
+                        <img src='github.png' class='mx-1' height=24px>
+                        <a class='nolink' href=''>GitHub</a>
+                    </p>
+                </div>
+            </div>
+
+            <!-- FAQ -->
+
+            <div class='row mt-5'>
+                <div class='col'>
+                    <h4>FAQ</h4>
+
+                    <div class='accordion' id='faqAccordion'>
+                        <div class='accordion-item'>
+
+                            <h2 class='accordion-header' id='headingOne'>
+                                <button class='accordion-button collapsed' type='button' data-bs-toggle='collapse' data-bs-target='#collapseOne'>
+                                    Apakah bisa kolaborasi proyek bareng?
+                                </button>
+                            </h2>
+
+                            <div id='collapseOne' class='accordion-collapse collapse'>
+                                <div class='accordion-body'>
+                                    Tentu! Saya terbuka untuk kolaborasi, baik freelance, riset, maupun hackathon.
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </main>
+        <footer class='top-add'>
+            <hr>
+            <p class='center'>Copyright &#169; Erlangga Rahmansyah. All rights reserved</p>
+        </footer>
+    </body>
+</html>
